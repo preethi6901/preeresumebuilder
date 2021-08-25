@@ -1,0 +1,202 @@
+<div class="resume1">
+    
+
+    <div class="title">Preethi Reddy</div>
+    <div class="subtitle">Law Student</div>
+    <div class="summary">
+        Enthusiastic student currently finalizing BBA LL.B degree in Law at Christ academy institute of law ready to lay career foundation in corporate law. Knowledgeable about contract act, arbitration agreements, and business administration. Ready to leverage training to make positive impact on drafting and policy related activities. Articulate communicator with strong analytical and relationship-building abilities.
+    </div>
+    
+    <div class="maincontent">
+        
+        <div class="leftcontent">
+            <div class="contact">
+                <div class="contact_title">
+                    <div class="contact_icon">
+                        <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+                    </div>
+                    <div class="contact_text">Contact</div>
+                </div>
+                <div class="contact_content">
+                    <div class="content_content_data" *ngFor="let item of contact;let i=index;">
+                        <div class="content_content_data_label">
+                            {{item.label}}
+                        </div>
+                        <div class="content_content_data_text">
+                            {{item.text}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills">
+                <div class="skills_title">
+                    <div class="skills_icon">
+                        <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+
+                    </div>
+                    <div class="skills_text">Skills</div>
+                </div>
+                <div class="skills_content">
+                    <div class="skills_content_data" *ngFor="let item of skills;let i=index;">
+                        <div class="skills_content_data_label">
+                            {{item.label}}
+                        </div>
+                        <div class="skills_content_data_content">
+                            <div class="skills_content_data_content_bullet">
+                                <div class="skills_content_data_content_bullet_count" *ngFor="let n of [1,2,3,4,5]">
+                                    <div class="skills_content_data_content_bullet_marked" *ngIf="n <= item.rating">
+                                        <mat-icon aria-hidden="false" aria-label="lens icon" style="color:black">lens</mat-icon>
+
+                                    </div>
+                                    <div class="skills_content_data_content_bullet_unmarked" *ngIf="n > item.rating">
+                                        <mat-icon aria-hidden="false" aria-label="lens icon" style="color:#cacaca">lens</mat-icon>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills_content_data_content_value">
+                                {{item.rating_text}}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="languages">
+                <div class="languages_title">
+                    <div class="languages_icon">
+                        <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+                    </div>
+                    <div class="languages_text">Languages</div>
+                </div>
+                <div class="languages_content">
+                    <div class="languages_content_data" *ngFor="let item of languages;let i=index;">
+                        <div class="languages_content_data_label">
+                            {{item.label}}
+                        </div>
+                        <div class="languages_content_data_content">
+                            <div class="languages_content_data_content_bullet">
+                                <div class="languages_content_data_content_bullet_count" *ngFor="let n of [1,2,3,4,5]">
+                                    <div class="languages_content_data_content_bullet_marked" *ngIf="n <= item.rating">
+                                        <mat-icon aria-hidden="false" aria-label="lens icon" 
+                                        
+                                        style="color:black">lens</mat-icon>
+
+
+                                    </div>
+                                    <div class="languages_content_data_content_bullet_unmarked" *ngIf="n > item.rating">
+                                        <mat-icon aria-hidden="false" aria-label="lens icon" style="color:#cacaca">lens</mat-icon>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="languages_content_data_content_value">
+                                {{item.rating_text}}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="accomplishments">
+                <div class="accomplishments_title">
+                    <div class="accomplishments_icon">
+                        <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+                    </div>
+                    <div class="accomplishments_text">Accomplishments</div>
+                </div>
+                <div class="accomplishments_content">
+                    <div class="accomplishments_content_data" *ngFor="let item of accomplishments;let i=index;">
+                        <div class="accomplishments_content_data_text">
+                            {{item.text}}
+                        </div>
+                        <ul class="accomplishments_content_data_bullet">
+                            <li *ngFor="let bullet of item.bullet">
+                                {{bullet}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             -->
+        </div>
+        
+        <div class="rightcontent">
+            
+            <div class="workhistory">
+                <div class="workhistory_title">
+                    <div class="workhistory_icon">
+                        <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+                    </div>
+                    <div class="workhistory_text">Work History</div>
+                </div>
+                <br />
+                <div class="workhistory_content" *ngFor="let item of workhistory;let i=index;">
+                    <div class="workhistory_content_left">
+                        {{item.duration}}
+                    </div>
+                    <div class="workhistory_content_right">
+                        <div class="workhistory_content_right_title">
+                            {{item.title}}
+                        </div>
+                        <div class="workhistory_content_right_subtitle">
+                            {{item.subtitle}}
+                        </div>
+                        <ul class="workhistory_content_right_bullet">
+                            <li *ngFor="let bulletItem of item.bullet">
+                                {{bulletItem}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education">
+                <div class="education_title">
+                    <div class="education_icon">
+                        <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+                    </div>
+                    <div class="education_text">Education</div>
+                </div>
+                <div class="education_content" *ngFor="let item of education;let i=index;">
+                    <div class="education_content_left">
+                        {{item.duration}}
+                    </div>
+                    <div class="education_content_right">
+                        <div class="education_content_right_title">
+                            {{item.title}}
+                        </div>
+                        <div class="education_content_right_subtitle">
+                            {{item.subtitle}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accomplishments">
+                <div class="accomplishments_title">
+                    <div class="accomplishments_icon">
+                        <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+                    </div>
+                    <div class="accomplishments_text">Accomplishments</div>
+                </div>
+                <div class="accomplishments_content">
+                    <div class="accomplishments_content_data" *ngFor="let item of accomplishments;let i=index;">
+                        <div class="accomplishments_content_data_text">
+                            {{item.text}}
+                        </div>
+                        <ul class="accomplishments_content_data_bullet">
+                            <li *ngFor="let bullet of item.bullet">
+                                {{bullet}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

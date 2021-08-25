@@ -1,0 +1,258 @@
+.resume1{
+    width: 50rem;
+    margin: 1rem auto;
+    .title{
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .subtitle{
+        margin: 0.5rem 0;
+    }
+    .summary{
+        margin: 0.5rem 0;
+        font-weight: 300;
+    }
+    .maincontent{
+        display: flex;
+        .leftcontent{
+            .contact{
+                .contact_title{
+                    margin-top: 0.6rem;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid gray;
+                    .contact_icon{
+
+                    }
+                    .contact_text{
+
+                    }
+                }
+                .contact_content{
+                    .content_content_data{
+                        .content_content_data_label{
+                            font-weight: 500;
+                        }
+                        .content_content_data_text{
+                            font-weight: 200;
+                        }
+                    }
+                }
+            }
+            .skills{
+                .skills_title{
+                    margin-top: 0.6rem;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid gray;
+                    .skills_icon{
+
+                    }
+                    .skills_text{
+
+                    }
+                }
+                .skills_content{
+                    .skills_content_data{
+                        display: flex;
+                        // align-items: center;
+                        margin:0.5rem 0;
+                        .skills_content_data_label{
+                            width: 8rem;
+                            font-weight: 200;
+                        }
+                        .skills_content_data_content{
+                            margin-left: 4rem;
+                            .skills_content_data_content_bullet{
+                                display: flex;
+                                align-items: center;
+                                .skills_content_data_content_bullet_count{
+                                    
+                                    .skills_content_data_content_bullet_marked{
+                                        // border: 1px solid transparent;
+                                        // background-color: black;
+                                        // width: 0.6rem;
+                                        // border-radius: 0.6rem;
+                                        // height: 0.6rem;
+                                        // margin-bottom: 0.1rem;
+                                        // margin-left: 0.1rem;
+                                     
+                                    }
+                                    .skills_content_data_content_bullet_unmarked{
+                                        // border: 1px solid grey;
+                                        // width: 0.6rem;
+                                        // border-radius: 0.6rem;
+                                        // height: 0.6rem;
+                                        // margin-bottom: 0.1rem;
+                                        // margin-left: 0.1rem;
+                                     
+                                    }
+                                }
+                            }
+                            .skills_content_data_content_value{
+                                font-weight: 200;
+                            }
+                        }
+                    }
+                }
+            }
+            .languages{
+                .languages_title{
+                    margin-top: 0.6rem;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid gray;
+                    .languages_icon{
+
+                    }
+                    .languages_text{
+
+                    }
+                }
+                .languages_content{
+                    
+                    .languages_content_data{
+                        display: flex;
+                        margin:0.5rem 0;
+
+                        .languages_content_data_label{
+                            width: 8rem;
+                            font-weight: 200;
+                        }
+                        .languages_content_data_content{
+                            margin-left: 4rem;
+                            .languages_content_data_content_bullet{
+
+                                display: flex;
+                                align-items: center;
+
+                                .languages_content_data_content_bullet_count{
+                                    .languages_content_data_content_bullet_marked{
+                                        // border: 1px solid transparent;
+                                        // background-color: black;
+                                        // width: 0.6rem;
+                                        // border-radius: 0.6rem;
+                                        // height: 0.6rem;
+                                        // margin-bottom: 0.1rem;
+                                        // margin-left: 0.1rem;
+                                        
+                                    }
+                                    .languages_content_data_content_bullet_unmarked{
+                                        // border: 1px solid grey;
+                                        // width: 0.6rem;
+                                        // border-radius: 0.6rem;
+                                        // height: 0.6rem;
+                                        // margin-bottom: 0.1rem;
+                                        // margin-left: 0.1rem;
+                                        
+                                    }
+                                }
+                            }
+                            .languages_content_data_content_value{
+                                font-weight: 200;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+           
+        }
+        .rightcontent{
+            margin-left: 4rem;
+            .workhistory{
+                .workhistory_title{
+                    margin-top: 0.6rem;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid gray;
+                    .workhistory_icon{
+
+                    }
+                    .workhistory_text{
+
+                    }
+                }
+                .workhistory_content{
+                    display: flex;
+                    .workhistory_content_left{
+                        // flex-basis: 30rem;
+                        // width: 5rem;
+
+                    }
+                    .workhistory_content_right{
+                        .workhistory_content_right_title{
+                            font-weight: 400;
+                        }
+                        .workhistory_content_right_subtitle{
+                            font-style: italic;
+                            font-weight: 300;
+                        }
+                        ul.workhistory_content_right_bullet{
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+            .education{
+                .education_title{
+                    margin-top: 0.6rem;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid gray;
+                    .education_icon{
+
+                    }
+                    .education_text{
+                        
+                    }
+                }
+                .education_content{
+                    display: flex;
+                    margin:0.3rem 0;
+                    .education_content_left{
+                        width: 6rem;
+
+                    }
+                    .education_content_right{
+                        .education_content_right_title{
+                            font-weight: 400;
+                        }
+                        .education_content_right_subtitle{
+                            font-style: italic;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+            .accomplishments{
+                .accomplishments_title{
+                    margin-top: 0.6rem;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid gray;
+                    .accomplishments_icon{
+
+                    }
+                    .accomplishments_text{
+                        
+                    }
+                }
+                .accomplishments_content{
+                    margin-left: 2rem;
+                    .accomplishments_content_data{
+                        margin-top: 0.5rem;
+                        .accomplishments_content_data_text{
+
+                        }
+                        ul.accomplishments_content_data_bullet{
+                            font-weight: 300;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
