@@ -102,7 +102,21 @@ export class Resume1Component implements OnInit {
 
   workhistory:any=[
     {
-      duration : "2020-01 - 2020-02",
+      duration : "16Sep'21 - 19Feb'22",
+      title: "Legal Intern",
+      subtitle : "Prime legal, Bengaluru, Karnataka",
+      bullet :[
+        "Client counselling",
+        "Answering legal queries on various legal platforms",
+        "Involved in research work and drafting",
+        "Assisted a human rights NGO named Talaash and provided Pro Bono Legal services",
+        "Actively worked in the field of consumer,civil,criminal,family,corporate and commercial disputes",
+        "Learnt clerical work",
+        "Attended court proceedings"
+      ]
+    },
+    {
+      duration : "15Jan'20 - 15Feb'20",
       title: "Political Intern",
       subtitle : "MLA Satish Reddy, Bengaluru, Karnataka",
       bullet :[
@@ -113,7 +127,7 @@ export class Resume1Component implements OnInit {
       ]
     },
     {
-      duration : "2019-07 - 2010-08",
+      duration : "18Jul'19 - 14Aug'19",
       title: "Legal Intern",
       subtitle : "District Legal Service Authority, Bengaluru, Karnataka",
       bullet :[
@@ -130,18 +144,18 @@ export class Resume1Component implements OnInit {
       ]
     },
     {
-      duration : "2019-01 - 2019-02",
+      duration : "05Jan'19 - 15Feb'19",
       title: "Legal Intern",
-      subtitle : "Vivek Subba Reddy, Bengaluru, Karnataka",
+      subtitle : "Senior council, Vivek Subba Reddy, President of advocate association, Bengaluru, Karnataka",
       bullet :[
-        "Had the opportunity to work with Vivek Subba Reddy (Senior Designated Advocate / Politician.)",
+        "Had the opportunity to work with Vivek Subba Reddy (Senior Designated President / Advocate / Politician)",
         "Gained practical knowledge in election petition and civil law",
         "Constantly involved in observing court proceeds and maintaining daily reports",
         "Involved in researching various provisions available in civil law",
       ]
     },
     {
-      duration : "2018-07 - 2018-08",
+      duration : "20Jul'18 - 23Aug'18",
       title: "Legal Intern",
       subtitle : "MD Basavanna Advocates, Bengaluru, Karnataka",
       bullet :[
@@ -152,18 +166,15 @@ export class Resume1Component implements OnInit {
       ]
     },
     {
-      duration : "2018-01 - 2018-02",
+      duration : "23Jan'18 - 20Feb'18",
       title: "Legal Intern",
       subtitle : "Mitra Jyoti NGO, Bengaluru, Karnataka",
       bullet :[
-        "Reviewed legal information and proofed documentation for errors.",
-        "Participated in and took notes during meetings.",
-        "Attended depositions and court proceedings and prepared summaries on cases.",
-        "Performed legal and general research.",
-        "Provided assistance on compliance projects.",
-        // "Assisted with client interviews using articulating and report making and took meticulous notes for inclusion in reports",
-        // "Coordinated trial exhibits by organizing materials, writing documentation and preparing digital materials and displays.",
-        // "Scanned, converted and organized records into electronic format with consistent naming convention."
+        "Reviewed legal information and proofed documentation for errors",
+        "Participated in and took notes during meetings",
+        "Attended depositions and court proceedings and prepared summaries on cases",
+        "Performed legal and general research",
+        "Provided assistance on compliance projects"
       ]
     }
   ];
